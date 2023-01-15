@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/black-jack.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="generic-container">
+  <div>
+      <div>
+          <div class="heading-container">
+    <h1>Blackjack</h1>
+</div>
+<div class="message-container">
+        <p id="message-el">Want to play a round?</p>
+    </div>
+        <div class="cards-container">
+        <p id="cards-el">Cards:</p>
+    </div>
+    <div class="sum-container">
+        <p id="sum-el">Sum:</p>
+    </div>
+    <div class="buttons-container">
+    <button id="button-el" onclick="renderGame()">START GAME</button>
+
+    <button id="new-card-el" onclick="newCard()">NEW CARD</button>
+    <p id="player-el">Maria: $145</p>
+    </div>
+    </div>
+</section>
+
+<h3 class="recommend">Recommend</h3>
+<p id="player-el"></p>
+    <script src="scripts/black-jack.js"></script>
+</body>
+</html>

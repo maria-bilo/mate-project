@@ -1,0 +1,36 @@
+.circle {
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    transition: background-color 1s, border-radius 2s;
+}
+.circle:hover {
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+.first {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 20px;
+    transform: rotate(45deg);
+    margin-bottom: 40px;
+}
+.second {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 20px;
+    transform: rotate(45deg);
+    margin-bottom: 40px;
+}
+.third {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 20px;
+    transform: rotate(45deg);
+    margin-bottom: 40px;
+}

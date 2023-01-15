@@ -1,0 +1,84 @@
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1601370690183-1c7796ecec61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+/*
+.heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.generic-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.output-container {
+    /*display: flex;
+    flex-direction: column;
+} /*
+.message-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sum-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    color: white;
+    font-style: italic;
+}
+p {
+    color: white;
+    font-weight: bold;
+}
+#button-el {
+    color: #016f32;
+    background-color: goldenrod;
+    width: 230px;
+    height: 70px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 10px;
+}
+/*.new-card-container {
+
+} */
+#new-card-el {
+    color: #016f32;
+    background-color: goldenrod;
+    width: 230px;
+    height: 70px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: large; 
+    text-align: center;
+    margin-bottom: 5px;
+}
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

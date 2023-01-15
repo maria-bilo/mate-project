@@ -1,0 +1,39 @@
+section {
+    width: 80%;
+    height: 800px; 
+    margin: 0 auto;
+    background-image: url("https://images.unsplash.com/photo-1652346720850-4f0f5549ffac?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870");
+    background-size: cover;
+    background-repeat: repeat-y;
+    opacity: 0.4;
+}
+h1 {
+    color: #fff;
+    size: 1.5em;
+}
+.plants {
+    width: 200px;
+    height: 150px;
+    border: brown 0.5px;
+    background-color: blueviolet;
+    padding: 20px;
+}
+.trees {
+    width: 200px;
+    height: 150px;
+    border: brown 0.5px;
+    background-color: blueviolet;
+    padding: 20px;
+}
+.pines {
+    width: 200px;
+    height: 150px;
+    border: brown 0.5px;
+    background-color: blueviolet;
+    padding: 20px;
+    margin-top: 100px;
+}
+div {
+    display: inline;
+   
+}

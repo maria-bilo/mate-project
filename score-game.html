@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/score-game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <section class="generic-section">
+    <div class="container">
+        <div class="sub-container">
+            <h3>HOME</h3>
+            <div class="num-container">
+                <p class="number" id="number-score">0</p>
+            </div>
+            <div class="scores-container">
+                <button class="score" id="numscore-one-btn" onclick="addOneHome()">+1</button>
+                <button class="score" id="numscore-two-btn" onclick="addTwoHome()">+2</button>
+                <button class="score" id="numscore-three-btn" onclick="addThreeHome()">+3</button>
+            </div>
+        </div>
+        <div class="sub-container">
+            <h3>GUEST</h3>
+            <div class="num-container">
+                <p class="number" id="guest-score">0</p>
+            </div>
+            <div class="scores-container">
+                <button class="score" id="guestscore-one-btn" onclick="addOneGuest()">+1</button>
+                <button class="score" id="guestscore-two-btn" onclick="addTwoGuest()">+2</button>
+                <button class="score" id="guestscore-three-btn" onclick="addThreeGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+</section>
+    <script src="scripts/score-game.js"></script>
+
+</body>
+</html>

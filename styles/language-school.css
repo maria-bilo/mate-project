@@ -1,0 +1,50 @@
+body {
+background-image: url("family-learning.png");
+background-color: antiquewhite;
+}
+
+#video {
+margin-top: 50px;
+display: flex;
+justify-content: center;
+width: 500px;
+}
+
+#header-img {
+width: 50%;
+height: 500px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+min-width: 400px;
+min-height: 400px;
+}
+
+#nav-bar {
+display: flex;
+justify-content: center;
+justify-content: space-around;
+}
+
+h2 {
+text-align: center;
+}
+
+section {
+text-align: center;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    }
+
+@media (max-width: 1000px)
+{
+#video-section
+{
+display: flex;
+max-width: 100%;
+height: auto;
+}
+}

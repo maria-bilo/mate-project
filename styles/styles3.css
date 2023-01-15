@@ -1,0 +1,31 @@
+body {
+    color: purple;
+}
+h1 {
+color: royalblue
+}
+form {
+    color: aqua;
+}
+button, input {
+    color: inherit;
+}
+p {
+    width: 500px;
+    height: 150px;
+    background-color: bisque;
+}
+#one {
+    background-color: blueviolet;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    border-left-style: dashed;
+    padding: 20px;
+}
+#two {
+    background-color: brown;
+    border: 3px solid purple;
+    border-radius: 30px;
+    text-align: center;
+}

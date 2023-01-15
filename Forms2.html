@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Learning Forms</h1>
+<form action="tacos">
+<p><lable for="username">Enter a Username:</lable>
+   <input id="Username" type="text" placeholder="username" name="username">
+</p>
+<p><lable for="password">Enter a password:</lable>
+    <input id="password" type="password">
+</p>
+<p>
+    <lable for"color">Choose a color:</lable>
+    <input id="color" type="color">
+    <input type="submit" value="Click Me">
+    </p>
+    <button>Submit</button>
+    <p>
+        <form>
+            <form action="https://www.google.com/search">
+                <input type="text" name="q">
+                <button>Search Google</button>
+        </form>
+    </p>
+        <p>
+            <form>
+            <form action="https://www.reddit.com/search">
+                <input type="text" name="q">
+                <button>Search Reddit</button>
+        </form>
+    </p>
+    <h2>More Inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree" checked>
+        <lable for="agree">I agree to everything</lable>
+        <p>
+        <lable for="xs">XS:</lable>
+        <input type="radio" name="size" id="xs" value="xs">
+        <lable for="s">S:</lable>
+        <input type="radio" name="size" id="s" value="s">
+        <lable for="m">M:</lable>
+        <input type="radio" name="size" id="m" value="m">
+        
+    </p>
+    <button>Submit</button>
+</form>
+    <p>
+    <form>
+        <lable for="meal">Choose the Entree</lable>
+        <select> name="meal" id="meal"
+        <option value="fish">Fish</option>
+        <option value="meat">Meat</option>
+        <option value="veg">Vegeterian</option>
+        </select>
+    </p>
+        <lable for="cheese">Cheese Type</lable>
+        <input type="range" id="cheese" min="1" max="10" name="cheeese_level"> 
+    <p>
+        <lable for="requests">Any special requests?</lable>
+        <textarea id="requests" rows="10" cols="20" placeholder="type something here"></textarea>
+        <button>Submit</button>
+    </form>
+</p>
+</body>
+</html>

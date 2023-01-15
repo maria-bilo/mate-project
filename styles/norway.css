@@ -1,0 +1,330 @@
+
+/*ABOUT* NEW AND UPDATED*/
+
+.generic-section {
+    background-color: var(--color-background-light);
+    width: 100vw;
+}
+
+.about-us-description {
+    padding-top: 90px;
+    padding-bottom: 5px;
+    background-color: var(--color-background-light);
+}
+
+.decoration-line-about {
+    color: var(--decoration-line-color);
+}
+
+.about__us-headline {
+    text-transform: capitalize;
+    color: var(--headlines-lighter-color);
+    margin-bottom: 20px;
+}
+
+.about__us-preview {
+    color: var(--color-background-dark);
+    font-size: 45px;
+    font-weight: bold;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+
+#ten-days {
+    color: var(--decoration-text-color);
+}
+
+.about__us-details {
+    background-color: var(--color-background-light);
+    display: block;
+
+    margin-bottom: 10px;
+
+    padding: 0 24px;
+}
+
+.about__us-details-preview {
+    background-color: var(--color-background-light);
+    display: block;
+    margin-bottom: 40px;
+    padding: 0 24px;
+}
+
+p {
+    color: var(--paragraph-color);
+}
+
+/*SERVICES*/
+.services__we__offer {
+    background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f1b1ae5ab132a0021525445_optimized);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-wrapper {
+    padding: 90px 24px 150px;
+}
+
+.services-subdiv {
+    margin-bottom: 50px;
+    padding: 25px 29px;
+    background-color: var(--light-text-color);
+}
+
+.image-section {
+    margin-bottom: 20px;
+    width: 110px;
+}
+
+.about__image {
+    width: 100%;
+    height: 100%;
+}
+
+.service {
+    size: 24px;
+    margin-bottom: 20px;
+}
+
+.service__description {
+    size: 15px;
+    color: var(--headlines-lighter-color);
+}
+
+@media (min-width: 640px) {
+    .about__us-headline {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 640px) {
+    .about-us-description container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 640px) {
+    .about__us-details-preview {
+        /* display: flex;
+       flex-direction: row; */
+        flex: 0 0 50%;
+    }
+
+    .about__center {
+        /* display: flex;
+       flex-direction: row; */
+        flex: 0 0 50%;
+    }
+
+    .about__us-details {
+        flex: 0 0 100%;
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+
+}
+@media (min-width: 1200px) {
+    .about__us-details-preview {
+        /* display: flex;
+       flex-direction: row; */
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+
+    .about__center {
+        /* display: flex;
+       flex-direction: row; */
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+
+    .about__us-details {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+
+}
+
+
+@media (min-width: 640px) {
+    .services-subdiv {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 600px;
+        padding-bottom: 40px;
+        padding-top: 0;
+        /* margin-left: 50px;  */
+    }
+}
+
+@media (min-width: 640px) {
+    .about-us-description {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .about-us-description>.about__us-details-preview {
+        /* width: 500px; */
+    }
+
+    .about-us-description>.about__us-details {
+        /* width: 500px; */
+    }
+}
+
+@media (min-width: 640px) {
+    .services__we__offer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 640px) {
+    .services-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 5px;
+        margin-top: 0;
+        background-size: cover;
+        background-size: 100%;
+        /* margin-left: 100px; */
+        margin: 0 auto;
+    }
+
+    .services-subdiv {
+        /* width: 350px; */
+        /* height: 300px; */
+        /* margin-left: 30px;
+       margin-right: 30px;
+       padding-left: 5px;
+       padding-right: 5px; */
+    }
+}
+
+@media (min-width: 640px) {
+    .services-subdiv {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 780px) {
+    .services-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 150px);
+        gap: 5px;
+        margin-top: 0;
+        background-size: cover;
+        background-size: 100%;
+        margin-left: 110px;
+    }
+
+    .services-subdiv {
+        width: 300px;
+        height: 300px;
+        /*margin-left: 30px;
+        margin-right: 30px;
+        padding-left: 5px;
+        padding-right: 5px; */
+    }
+}
+
+@media (min-width: 780px) {
+    .about__image {
+        height: 110px;
+        width: 300px;
+    }
+
+    .service {
+        width: 310px;
+        height: 37px;
+    }
+
+    .service__description {
+        width: 310px;
+        height: 110px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 960px) {
+    .services-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        gap: 5px;
+        margin-top: 0;
+        background-size: cover;
+        background-size: 100%;
+        margin-left: 120px;
+    }
+
+    .services-wrapper .services-subdiv {
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+/*
+
+@media (min-width: 1700px) {
+    .services-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 450px);
+        gap: 5px;
+        margin-top: 0;
+        background-size: cover;
+        background-size: 100%;
+        margin-left: 130px;
+    }
+    .services-wrapper .services-subdiv {
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+} */
+
+/*
+#container {
+    display: grid;
+    grid: repeat(2, 280px) / auto-flow 300px;
+  }
+  
+  #container > div {
+    background-color: #8ca0ff;
+    width: 50px;
+    height: 50px;
+  } */
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clock-background-color);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    /*margin-top: 20px; */
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 var(--clock-box-shadow-a-color), 0 6px 20px 0 var(--clock-box-shadow-b-color);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+@media (min-width: 640px) {
+    .clock {
+        font-size: 40px;
+        height: 300px;
+        width: 300px;
+    }
+}

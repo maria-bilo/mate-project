@@ -1,0 +1,24 @@
+
+span {
+    background-color: aqua;
+    border: 1px solid black;
+    display: inline;
+    width: 50px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.another-span {
+    margin-left: 50px;
+}
+
+section {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+#rgba {
+    width: 200px;
+    height: 200px;
+    background-color: rgba (0,0,0,5);
+}

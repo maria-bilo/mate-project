@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1644&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button {
+    background-color: blueviolet;
+    width: 100px;
+    height: 30px;
+}
+
+#draggable {
+    padding: 1rem;
+    cursor: move;
+}
+
+#graggable.dragging {
+    opacity: .5;
+}
